@@ -17,6 +17,7 @@ margin: 0px;
 padding: 0px;
 }
 body{
+    width: 1920px;
 margin: 0px;
 box-sizing: border-box;
 color: #5D5116;
@@ -99,8 +100,23 @@ background-position: center;
    line-height: 140%;
    color: var(--title-color);
 }
-
-
+.contact{
+height: 974px;
+background-color: var(--form-background);
+}
+.contact-img{
+height: 80px;
+margin-top: 100px;
+margin-bottom: 50px;
+height: 89px;
+}
+.contact-text{
+color: var(--title-color);
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+line-height: normal;
+}
 
 
 
