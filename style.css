@@ -177,6 +177,10 @@ text-align: center;
 line-height: normal;
 color: var(--form-background);
 background-color: var(--title-color);
+padding-top: 18px;
+padding-right: 47px;
+padding-left: 47px;
+padding-bottom: 18px;
 }
 
 
