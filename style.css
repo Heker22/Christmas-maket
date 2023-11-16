@@ -168,6 +168,16 @@ font-weight: 500;
 line-height: normal;
 margin-top: 150px;
 }
+.form-bttn{
+width: 175px;
+height: 60px;
+font-size: 28px;
+font-weight: 700;
+text-align: center;
+line-height: normal;
+color: var(--form-background);
+background-color: var(--title-color);
+}
 
 
 
