@@ -32,6 +32,7 @@ body {
     margin: 0px;
     box-sizing: border-box;
     color: #5D5116;
+    font-family: 'Raleway', sans-serif;
 }
 
 .container {
@@ -47,6 +48,7 @@ body {
 
 .header-nav-link {
     color: var(--footer-backround);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero {
@@ -76,6 +78,7 @@ body {
 .christmas {
     background-color: var(--main-background);
     padding-bottom: 150px;
+    font-family: 'Raleway', sans-serif;
 }
 
 .christmas-title {
@@ -91,6 +94,7 @@ body {
     font-weight: 700;
     text-align: center;
     line-height: normal;
+    
 }
 
 .christmas-item {
@@ -130,6 +134,7 @@ body {
     padding-top: 100px;
     background-color: var(--form-background);
     padding-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact-img {
@@ -233,5 +238,5 @@ color: var(--title-color);
 text-align: center;
 margin-top: 30px;
 font-size: 10px;
-
+font-family: 'Montserrat', sans-serif;
 }
