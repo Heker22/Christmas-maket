@@ -1,188 +1,237 @@
-:root{
---main-background:#F6B637;
---form-background:#948224;
---footer-backround:#5D5116;
---title-color:#FFF;
---form-color:#5D5115;
+:root {
+    --main-background: #F6B637;
+    --form-background: #948224;
+    --footer-backround: #5D5116;
+    --title-color: #FFF;
+    --form-color: #5D5115;
 }
-ul{
-list-style: none;
-padding: 0px ;
-margin: 0px;
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
-a{
-text-decoration: none;
+
+a {
+    text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, p{
-margin: 0px;
-padding: 0px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
 }
-body{
+
+body {
     width: 1920px;
-margin: 0px;
-box-sizing: border-box;
-color: #5D5116;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #5D5116;
 }
-.container{
-width: 1292px;
-padding: 0 15px;
-margin: 0 auto;
+
+.container {
+    width: 1292px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.header{
-background-color: var(--main-background);
-font-size: 22px;
+
+.header {
+    background-color: var(--main-background);
+    font-size: 22px;
 }
-.header-nav-link{
-color: var(--footer-backround);
+
+.header-nav-link {
+    color: var(--footer-backround);
 }
-.hero{
-background-color: var(--main-background);
-background-image: url(../christmas-images/santa-and-workers.png);
-padding-bottom: 792px;
-background-repeat: no-repeat;
-background-position:center;
-background-size: cover;
+
+.hero {
+    background-color: var(--main-background);
+    background-image: url(./christmas-images/santa-and-workers.png);
+    padding-bottom: 792px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.hero-title{
-color:var(--title-color);
-font-size:82px;
-font-weight: 700;
-line-height: normal;
-text-align: center;
+
+.hero-title {
+    color: var(--title-color);
+    font-size: 82px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
 }
-.hero-word{
-font-size: 28px;
-text-align: center;
-font-weight: 500;
-line-height: 172%;
+
+.hero-word {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 172%;
 }
-.christmas{
-background-color: var(--main-background);
+
+.christmas {
+    background-color: var(--main-background);
+    padding-bottom: 150px;
 }
-.christmas-title{
-font-size: 48px;
-text-align: center;
-font-weight: 600;
-line-height: normal;
+
+.christmas-title {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
 }
-.christmas-subtitle{
-color: var(--title-color);
-font-size: 40px;
-font-weight: 700;
-text-align: center;
-line-height: normal;
+
+.christmas-subtitle {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
 }
-.christmas-item{
-width: 483px;
-font-size: 32px;
-font-weight: 600;
-text-align: center;
-line-height: 140%;
+
+.christmas-item {
+    width: 483px;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 140%;
 }
-.christmas-wrap{
-font-size: 32px;
-font-weight: 600;
-text-align: center;
-line-height: 140%;
-width: 556px;
+
+.christmas-wrap {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 140%;
+    width: 556px;
 }
-.stars-wrap{
-background-image: url(./christmas-images/stars.png);
-padding: 62px 116px;
-background-repeat: no-repeat;
-background-position: center;
+
+.stars-wrap {
+    background-image: url(./christmas-images/stars.png);
+    padding: 62px 116px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.christmas-button{
+
+.christmas-button {
     padding: 15px 60px;
-   background-color: var(--form-background);
-   font-size: 24px;
-   border: none;
-   font-weight: 700;
-   line-height: 140%;
-   color: var(--title-color);
+    background-color: var(--form-background);
+    font-size: 24px;
+    border: none;
+    font-weight: 700;
+    line-height: 140%;
+    color: var(--title-color);
 }
-.contact{
-height: 974px;
-background-color: var(--form-background);
+
+.contact {
+    padding-top: 100px;
+    background-color: var(--form-background);
+    padding-bottom: 50px;
 }
-.contact-img{
-margin-top: 100px;
-margin-bottom: 50px;
-height: 89px;
+
+.contact-img {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 89px;
+    display: block;
 }
-.contact-text{
-color: var(--title-color);
-font-size: 32px;
-font-weight: 700;
-text-align: center;
-line-height: normal;
-border-bottom: 1px solid;
+
+.contact-text {
+    color: var(--title-color);
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
 }
-.contact-word{
-color: var(--title-color);
-text-align: center;
-font-size: 28px;
-font-weight: 600;
-line-height: normal;
+.contact-border{
+    border-bottom: 1px solid var(--title-color);
+    padding-bottom: 80px;
 }
-.contact-form-text{
-font-size: 28px;
-font-weight: 600;
-line-height: normal;
-text-align: center;
-color: var(--title-color);
+.contact-word {
+    margin-top: 80px;
+    color: var(--title-color);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
 }
-.form{
-background-color: var(--form-background);
-width: 1920px;
-height: 974px;
+
+.contact-form-text {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.form {
+    background-color: var(--form-background);
+    width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px auto;
 }
 .form-small{
-border: 1px solid #FFF;
-width: 225px;
-height: 70px;
-padding-top: 23px;
-padding-left: 60px;
-padding-right: 60px;
-padding-bottom: 23px;
-color: var(--form-color);
-text-align: center;
+border: 1px solid var(--title-color);
+background-color: var(--form-background);
 font-size: 20px;
 font-weight: 600;
-line-height: normal;
-margin-top: 50px;
-background-color: var(--form-background);
+width: 225px;
+color: var(--form-color);
+height: 70px;
+text-align: center;
 }
 .form-big{
-border: 1px solid #FFF;
+border: 1px solid var(--title-color);
+background-color: var(--form-background);
 width: 480px;
 height: 70px;
-padding-top: 23px;
-padding-left: 155px;
-padding-right: 155px;
-padding-bottom: 23px;
-background-color: var(--form-background);
-color: var(--form-color);
-font-size: 28px;
-font-weight: 500;
-line-height: normal;
-margin-top: 150px;
-}
-.form-bttn{
-width: 175px;
-height: 60px;
-font-size: 28px;
-font-weight: 700;
 text-align: center;
-line-height: normal;
-color: var(--form-background);
-background-color: var(--title-color);
-padding-top: 18px;
-padding-right: 47px;
-padding-left: 47px;
-padding-bottom: 18px;
+color: var(--form-color);
+font-size: 20px;
+font-weight: 600;
+margin-top: 30px;
+}
+.form-bttn {
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    color: var(--form-background);
+    background-color: var(--title-color);
+    padding-top: 18px;
+    padding-right: 47px;
+    padding-left: 47px;
+    padding-bottom: 18px;
+    margin: 40px auto ;
+    border: none;
 }
 
+.bttn-wrap {
+    display: flex;
+    justify-content: center;
+}
+.footer{
+background-color: var(--footer-backround);
+padding-top: 40px;
+padding-bottom: 35px;
+}
+.footer-img-wrap{
+margin: 0 auto;
+width: 188px;
+display: flex;
+justify-content: space-between;
+}
+.footer-text{
+color: var(--title-color);
+text-align: center;
+margin-top: 30px;
+font-size: 10px;
 
-
-
+}
