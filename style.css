@@ -28,7 +28,6 @@ p {
 }
 
 body {
-    width: 1920px;
     margin: 0px;
     box-sizing: border-box;
     color: #5D5116;
@@ -40,7 +39,12 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-
+.header-wrap{
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+}
 .header {
     background-color: var(--main-background);
     font-size: 22px;
@@ -96,7 +100,10 @@ body {
     line-height: normal;
     
 }
-
+.christmas-list{
+display: flex;
+justify-content: space-evenly;
+}
 .christmas-item {
     width: 483px;
     font-size: 32px;
@@ -111,6 +118,11 @@ body {
     text-align: center;
     line-height: 140%;
     width: 556px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .stars-wrap {
