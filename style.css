@@ -39,12 +39,14 @@ body {
     padding: 0 15px;
     margin: 0 auto;
 }
-.header-wrap{
-display: flex;
-justify-content:center;
-flex-direction: column;
-align-items: center;
+
+.header-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
 .header {
     background-color: var(--main-background);
     font-size: 22px;
@@ -62,6 +64,10 @@ align-items: center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 100px;
+
+
+
 }
 
 .hero-title {
@@ -70,6 +76,7 @@ align-items: center;
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .hero-word {
@@ -98,12 +105,15 @@ align-items: center;
     font-weight: 700;
     text-align: center;
     line-height: normal;
-    
+
 }
-.christmas-list{
-display: flex;
-justify-content: space-evenly;
+
+.christmas-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 94px;
 }
+
 .christmas-item {
     width: 483px;
     font-size: 32px;
@@ -164,10 +174,12 @@ justify-content: space-evenly;
     text-align: center;
     line-height: normal;
 }
-.contact-border{
+
+.contact-border {
     border-bottom: 1px solid var(--title-color);
     padding-bottom: 80px;
 }
+
 .contact-word {
     margin-top: 80px;
     color: var(--title-color);
@@ -194,27 +206,30 @@ justify-content: space-evenly;
     justify-content: space-between;
     margin: 50px auto;
 }
-.form-small{
-border: 1px solid var(--title-color);
-background-color: var(--form-background);
-font-size: 20px;
-font-weight: 600;
-width: 225px;
-color: var(--form-color);
-height: 70px;
-text-align: center;
+
+.form-small {
+    border: 1px solid var(--title-color);
+    background-color: var(--form-background);
+    font-size: 20px;
+    font-weight: 600;
+    width: 225px;
+    color: var(--form-color);
+    height: 70px;
+    text-align: center;
 }
-.form-big{
-border: 1px solid var(--title-color);
-background-color: var(--form-background);
-width: 480px;
-height: 70px;
-text-align: center;
-color: var(--form-color);
-font-size: 20px;
-font-weight: 600;
-margin-top: 30px;
+
+.form-big {
+    border: 1px solid var(--title-color);
+    background-color: var(--form-background);
+    width: 480px;
+    height: 70px;
+    text-align: center;
+    color: var(--form-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
 }
+
 .form-bttn {
     font-size: 28px;
     font-weight: 700;
@@ -226,7 +241,7 @@ margin-top: 30px;
     padding-right: 47px;
     padding-left: 47px;
     padding-bottom: 18px;
-    margin: 40px auto ;
+    margin: 40px auto;
     border: none;
 }
 
@@ -234,21 +249,24 @@ margin-top: 30px;
     display: flex;
     justify-content: center;
 }
-.footer{
-background-color: var(--footer-backround);
-padding-top: 40px;
-padding-bottom: 35px;
+
+.footer {
+    background-color: var(--footer-backround);
+    padding-top: 40px;
+    padding-bottom: 35px;
 }
-.footer-img-wrap{
-margin: 0 auto;
-width: 188px;
-display: flex;
-justify-content: space-between;
+
+.footer-img-wrap {
+    margin: 0 auto;
+    width: 188px;
+    display: flex;
+    justify-content: space-between;
 }
-.footer-text{
-color: var(--title-color);
-text-align: center;
-margin-top: 30px;
-font-size: 10px;
-font-family: 'Montserrat', sans-serif;
+
+.footer-text {
+    color: var(--title-color);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
